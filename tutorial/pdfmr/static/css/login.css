@@ -1,0 +1,55 @@
+.login-logo{
+  max-width: 100%;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px;
+  color: rgb(33, 75, 69);
+}
+
+.login-box{
+  margin-top: 50px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.login-title{
+  padding: 10px;
+  font-size: 22px;
+}
+
+.login-form{
+  padding: 50px;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.form-box{
+  padding: 30px 10px;
+  text-align: center;
+  background-color: rgb(159, 207, 255);
+  border-radius: 20px;
+}
+
+.login-input{
+  padding: 5px;
+}
+
+.error-login{
+  font-size: 11px;
+  padding: 15px;
+}
+
+.error-login p{
+  background-color: rgb(241, 52, 61);
+  color: #fff;
+  border-radius: 5px;
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.login-button{
+  padding: 10px;
+  background-color: rgb(39, 121, 121);
+  color: #fff;
+}
