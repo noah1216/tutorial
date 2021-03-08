@@ -11,10 +11,17 @@
   <header>
     <div class="header-wrap">
       <p>メインメニュー</p>
+      {% if user.is_authenticated %}
       <ul>
-        <li>ユーザー</li>
+        <li><a class="nav-link">ユーザ名：{{ user.get_username }}</a></li>
+        <li><a class="nav-link" href="{% url 'accounts:logout' %}"><i class="fa fa-fw fa-sign-out"></i>ログアウト</a></li>
+      </ul>
+      {% else %}
+      <ul>
+        <li>新規登録</li>
         <li>ログイン</li>
       </ul>
+      {% endif %}
     </div>
   </header>
   <section>
